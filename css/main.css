@@ -1,0 +1,15 @@
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    color:red
+}
+body{
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
