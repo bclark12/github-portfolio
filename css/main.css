@@ -1,15 +1,17 @@
 
 main {
     display: flex;
-    justify-content: flex-start;
-    color:red
+    flex-direction: row;
+    justify-content: space-between;
 }
 body{
     background-color: white;
 }
-
-.main {
+aside {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.articles {
     color: red;
+    width: 50%;
 }
