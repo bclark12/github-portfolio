@@ -1,17 +1,85 @@
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+header {     
+    text-align: center;
+    margin: 30px 0 0 0;
 }
-body{
-    background-color: white;
+.articles {
+    color: white;
+    width: 100%;
 }
-aside {
+article {
+    background-color: black;
+    margin:0 0 10px 0;
+}
+article p:first-of-type:first-letter {
+    font-size: 6em;
+}
+footer {
+    text-align: center
+}
+body {
     display: flex;
     flex-direction: column;
 }
-.articles {
-    color: red;
-    width: 50%;
+nav ul {
+    list-style: none;
+    text-align: center;
 }
+ul a {
+    text-decoration: none;
+    margin-left: -40px;
+}
+aside {
+    text-align: center
+}
+aside a {
+    margin: 20px 0 20px 0; 
+}
+@media (min-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+    nav {
+        list-style: no;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;     
+    }
+    aside a {       
+        background-color: black;
+        text-align: center; 
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+        border-radius: 15px;
+    }
+    ul a {
+        font-size: 1.25em;
+        background: black;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border:2px white solid;
+        border-radius: 15px;
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+    }
+    ul {
+        margin: 50px 0;
+        padding: 0;
+        list-style: none;      
+    }
+    ul li {
+        margin: 0;
+        padding: 0;
+    }
+    .articles {
+        color:white;
+        width: 66%;
+    }
+    }
